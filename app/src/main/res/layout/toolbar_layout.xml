@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout android:layout_height="55dp"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:weightSum="4"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:id="@+id/mimageview_menu"
+        android:src="@drawable/ic_menu_black_24dp" />
+    <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Bold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_weight="3"
+        android:id="@+id/textview_title"
+        android:text="BSC.CSIT"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        />
+    <com.andexert.library.RippleView
+        android:id="@+id/more1s"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        app:rv_rippleDuration="200"
+        app:rv_color="#645e5e"
+        rv_centered="true">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:clickable="true"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/ic_search"/>
+    </com.andexert.library.RippleView>
+    <com.andexert.library.RippleView
+        android:id="@+id/ripple_notify"
+        android:layout_width="40dp"
+        app:rv_rippleDuration="200"
+        app:rv_color="#645e5e"
+        android:layout_height="45dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="0dp"
+        rv_centered="true">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_gravity="end"
+        android:id="@+id/mimagevieew_notification"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/ic_notifications"/>
+    <com.nex3z.notificationbadge.NotificationBadge
+        android:id="@+id/badge"
+        android:layout_width="28dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginRight="0dp"
+        android:layout_height="28dp"
+        app:nbMaxTextLength="2"/>
+    </com.andexert.library.RippleView>
+</LinearLayout>
+
+</android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>

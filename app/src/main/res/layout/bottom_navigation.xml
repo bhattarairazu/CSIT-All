@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:layout_gravity="bottom">
+   >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+        <ImageView android:id="@+id/imageView_home"
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/circle" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#fff"
+            android:orientation="horizontal">
+            <com.andexert.library.RippleView
+                android:id="@+id/more1s"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:rv_rippleDuration="200"
+                app:rv_color="#645e5e"
+                android:layout_gravity="center_vertical"
+                rv_centered="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/mlinearlayout_section"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/mimageView_section"
+                    android:src="@drawable/ic_home"/>
+                <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mtextvieww_section"
+                    android:text="Section"/>
+            </LinearLayout>
+            </com.andexert.library.RippleView>
+            <com.andexert.library.RippleView
+                android:id="@+id/more1es"
+                android:layout_width="0dp"
+                app:rv_color="#645e5e"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                rv_centered="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                app:rv_rippleDuration="200"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/mlinearlayout_files"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/mimageView_files"
+                    android:src="@drawable/ic_catalogue_1"/>
+                <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:id="@+id/mtextvieww_files"
+                    android:layout_height="wrap_content"
+                    android:text="Files"/>
+            </LinearLayout>
+            </com.andexert.library.RippleView>
+            <com.andexert.library.RippleView
+                android:id="@+id/mosre1s"
+                android:layout_width="0dp"
+                app:rv_color="#645e5e"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                app:rv_rippleDuration="200"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                rv_centered="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:id="@+id/mlinearlayout_home"
+                android:orientation="vertical">
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/home_bn"
+                    android:layout_width="60dp"
+                    android:layout_height="55dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/action_add"
+                    tools:ignore="UnknownId"
+                    android:layout_alignParentRight="true" />
+
+            </LinearLayout>
+            </com.andexert.library.RippleView>
+
+            <com.andexert.library.RippleView
+                android:id="@+id/moresd1s"
+                android:layout_width="0dp"
+                android:gravity="center"
+                app:rv_color="#645e5e"
+                android:layout_height="wrap_content"
+                app:rv_rippleDuration="200"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                rv_centered="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:id="@+id/mlinearlayout_jobs"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:id="@+id/mimageView_jobs"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_home_phn"/>
+
+                <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:id="@+id/mtextvieww_jobs"
+                    android:layout_height="wrap_content"
+                    android:text="Jobs" />
+            </LinearLayout>
+            </com.andexert.library.RippleView>
+            <com.andexert.library.RippleView
+                android:id="@+id/more1sss"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                app:rv_color="#645e5e"
+                app:rv_rippleDuration="200"
+                rv_centered="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/mlinearlayout_settings"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/mimageView_settings"
+                    android:src="@drawable/ic_setting"/>
+                <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mtextvieww_settings"
+                    android:text="More"/>
+            </LinearLayout>
+            </com.andexert.library.RippleView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:layout_marginRight="26dp"
+
+                android:background="#acacac"/>
+
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="20dp"
+
+                android:background="#acacac"/>
+
+        </LinearLayout>
+
+
+
+
+    </FrameLayout>
+
+</LinearLayout>

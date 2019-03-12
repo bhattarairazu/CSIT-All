@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:background="#fff"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"  >
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"
+        android:layout_height="52dp" />
+
+    <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Regular
+        android:id="@+id/gmailitem_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16dp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textColor="@color/textcolor"
+        android:gravity="center_vertical" />
+</LinearLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mlinear_layut1"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/h3"
+            android:layout_weight="0"
+            android:id="@+id/mcricular_image_profille"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mlinear_layut2"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            >
+        <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Bold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kathmandu Nepal"
+            android:id="@+id/mtexxtview_titlesevents"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/textcolor"
+            android:layout_marginBottom="1dp"
+            android:textSize="17dp"
+            />
+            <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Light
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 Hours Ago"
+                android:id="@+id/mtextxvew_date"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="13dp"
+                />
+    </LinearLayout>
+    <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Light
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forum"
+        android:id="@+id/tetview_tag"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:background="@drawable/qr_rect"
+
+        />
+
+    </LinearLayout>
+    <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/mtextvuew_post"
+        android:text="Nepal idol season 3 excited to watch yahoo. idol season 3 excited to watch yahoo idol season 3 excited to watch yahoo"
+        android:visibility="visible"
+        />
+    <View
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+
+        android:background="#acacac"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_weight="1"
+            android:id="@+id/mimage_likebefore"
+            android:src="@drawable/action_like_gray"
+            android:layout_height="25dp" />
+    <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Light
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="0 Like"
+        android:textAlignment="center"
+        android:paddingRight="2dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/bloglikes_count"
+        android:layout_weight="1"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_weight="1"
+            android:id="@+id/mimage_commenteafter"
+            android:src="@drawable/action_comment_icon"
+            android:layout_height="20dp" />
+
+        <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Light
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 Comment"
+            android:paddingRight="2dp"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Light
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textAlignment="center"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_weight="1"
+        />
+</LinearLayout>
+
+
+</LinearLayout>

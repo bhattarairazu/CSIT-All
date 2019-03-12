@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar_otheractivity"/>
+    <ProgressBar
+        android:id="@+id/new_post_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="invisible"
+      />
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/mimagevie_eidt_cover"
+        android:src="@drawable/ic_add_circl"
+        android:visibility="gone"
+        android:layout_height="160dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Click Here to update cover photo"
+        android:id="@+id/medittext_edit_upoadcover"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:background="@drawable/edittext_drawable"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Your Status Here"
+        android:id="@+id/medittext_edit_status"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:background="@drawable/edittext_drawable"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Your Address Here"
+        android:id="@+id/medittext_edit_address"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:background="@drawable/edittext_drawable"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        android:textColor="#fff"
+        android:id="@+id/mbt_update"
+        android:text="Update"
+        android:layout_weight="1"
+        android:background="@drawable/signin_rect"
+        android:layout_margin="5dp"
+        />
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:id="@+id/mbt_cancel"
+            android:text="Cancel"
+            android:layout_weight="1"
+            android:background="@drawable/signin_rect"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>

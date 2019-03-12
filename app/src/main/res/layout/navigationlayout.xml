@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Bold
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:background="@color/textcolor"
+        android:text="Notification"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mlisstview"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:layout_margin="1dp"
+        />
+</LinearLayout>

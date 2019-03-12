@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout
+    android:layout_height="55dp"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:id="@+id/mimageview_back"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+        <com.example.user.androidcsit.customfonts.MyTextView_Roboto_Bold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/textview_title"
+            android:text="Files"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>

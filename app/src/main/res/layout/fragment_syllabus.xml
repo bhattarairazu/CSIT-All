@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragment.Fragment_syllabus">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/medittext_search"
+        android:layout_margin="5dp"
+        android:hint="Type Here To Search For Subjects"
+        android:padding="5dp"
+        android:background="@drawable/edittext_drawable"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mlistview_syllabus"
+        android:layout_below="@+id/medittext_search"
+        >
+
+    </ListView>
+    <!--<android.support.v4.widget.SwipeRefreshLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/swipe_oldquestions"-->
+        <!--android:visibility="gone"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/semester_texviews"-->
+
+        <!--&gt;-->
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/recyclerview_fieldownload"-->
+
+            <!--&gt;-->
+
+        <!--</android.support.v7.widget.RecyclerView>-->
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:gravity="center"-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/errorMessageold"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="192dp"-->
+            <!--android:layout_height="192dp"-->
+            <!--android:padding="16dp"-->
+            <!--android:src="@drawable/no_connection" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:text="No Internet Conncetion"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:text="Tap to retry."-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--android:layout_height="wrap_content" />-->
+    <!--</LinearLayout>-->
+    <!--<ProgressBar-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/progressbarold"-->
+        <!--android:visibility="visible"-->
+        <!--android:theme="@style/GalaxyZooThemeToolbarDarkOverflow"-->
+        <!--android:layout_centerInParent="true" />-->
+
+</RelativeLayout>
